@@ -1,0 +1,212 @@
+[2019-10-11T10:56:56,149][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967) ~[?:1.8.0_121]
+	at org.elasticsearch.bootstrap.Security.readPolicy(Security.java:222) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.getPluginPermissions(Security.java:179) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.configure(Security.java:121) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:207) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:322) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:130) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:121) [main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:69) [main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) [main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:85) [main/:?]
+[2019-10-11T10:56:56,206][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:134) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:121) ~[main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:69) ~[main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) ~[main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:85) ~[main/:?]
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967) ~[?:1.8.0_121]
+	at org.elasticsearch.bootstrap.Security.readPolicy(Security.java:222) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.getPluginPermissions(Security.java:179) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.configure(Security.java:121) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:207) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:322) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:130) ~[main/:?]
+	... 6 more
+[2019-10-11T10:59:58,562][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967) ~[?:1.8.0_121]
+	at org.elasticsearch.bootstrap.Security.readPolicy(Security.java:222) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.getPluginPermissions(Security.java:179) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.configure(Security.java:121) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:207) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:322) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:130) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:121) [main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:69) [main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) [main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:85) [main/:?]
+[2019-10-11T10:59:58,598][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:134) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:121) ~[main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:69) ~[main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) ~[main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:85) ~[main/:?]
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967) ~[?:1.8.0_121]
+	at org.elasticsearch.bootstrap.Security.readPolicy(Security.java:222) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.getPluginPermissions(Security.java:179) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.configure(Security.java:121) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:207) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:322) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:130) ~[main/:?]
+	... 6 more
+[2019-10-11T11:00:58,762][ERROR][o.e.b.ElasticsearchUncaughtExceptionHandler] [] fatal error in thread [main], exiting
+java.lang.ExceptionInInitializerError: null
+	at org.elasticsearch.bootstrap.Security.readPolicy(Security.java:219) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.getPluginPermissions(Security.java:179) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.configure(Security.java:121) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:207) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:322) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:130) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:121) ~[main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:69) ~[main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) ~[main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:85) ~[main/:?]
+Caused by: java.lang.IllegalStateException: build.snapshot set to [false] but not running tests
+	at org.elasticsearch.Build.<clinit>(Build.java:70) ~[main/:?]
+	... 12 more
+[2019-10-11T11:03:04,227][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967) ~[?:1.8.0_121]
+	at org.elasticsearch.bootstrap.Security.readPolicy(Security.java:222) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.getPluginPermissions(Security.java:179) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.configure(Security.java:121) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:207) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:322) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:130) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:121) [main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:69) [main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) [main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:85) [main/:?]
+[2019-10-11T11:03:04,262][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:134) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:121) ~[main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:69) ~[main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) ~[main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:85) ~[main/:?]
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967) ~[?:1.8.0_121]
+	at org.elasticsearch.bootstrap.Security.readPolicy(Security.java:222) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.getPluginPermissions(Security.java:179) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.configure(Security.java:121) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:207) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:322) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:130) ~[main/:?]
+	... 6 more
+[2019-10-11T11:04:29,931][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967) ~[?:1.8.0_121]
+	at org.elasticsearch.bootstrap.Security.readPolicy(Security.java:222) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.getPluginPermissions(Security.java:179) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.configure(Security.java:121) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:207) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:322) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:130) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:121) [main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:69) [main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) [main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:85) [main/:?]
+[2019-10-11T11:04:30,002][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:134) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:121) ~[main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:69) ~[main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) ~[main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:85) ~[main/:?]
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967) ~[?:1.8.0_121]
+	at org.elasticsearch.bootstrap.Security.readPolicy(Security.java:222) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.getPluginPermissions(Security.java:179) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.configure(Security.java:121) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:207) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:322) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:130) ~[main/:?]
+	... 6 more
+[2019-10-11T13:34:51,693][INFO ][o.e.n.Node               ] [] initializing ...
+[2019-10-11T13:34:52,635][INFO ][o.e.e.NodeEnvironment    ] [92lzyDv] using [1] data paths, mounts [[HAHA (E:)]], net usable_space [24.1gb], net total_space [50.5gb], types [NTFS]
+[2019-10-11T13:34:52,636][INFO ][o.e.e.NodeEnvironment    ] [92lzyDv] heap size [3.5gb], compressed ordinary object pointers [true]
+[2019-10-11T13:34:52,644][INFO ][o.e.n.Node               ] node name [92lzyDv] derived from node ID [92lzyDvCTFi8GiwD7VEFGg]; set [node.name] to override
+[2019-10-11T13:34:52,644][INFO ][o.e.n.Node               ] version[6.0.0], pid[13172], build[Unknown/Unknown], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2019-10-11T13:34:52,645][INFO ][o.e.n.Node               ] JVM arguments [-Des.path.conf=/study/elasticsearch/core/config, -Des.path.home=/study/elasticsearch/core, -Dlog4j2.disable.jmx=true, -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=7947, -Dfile.encoding=GBK, -Duser.country=CN, -Duser.language=zh, -Duser.variant]
+[2019-10-11T13:35:18,011][INFO ][o.e.p.PluginsService     ] [92lzyDv] loaded module [aggs-matrix-stats]
+[2019-10-11T13:35:18,012][INFO ][o.e.p.PluginsService     ] [92lzyDv] loaded module [analysis-common]
+[2019-10-11T13:35:18,012][INFO ][o.e.p.PluginsService     ] [92lzyDv] loaded module [ingest-common]
+[2019-10-11T13:35:18,012][INFO ][o.e.p.PluginsService     ] [92lzyDv] loaded module [lang-expression]
+[2019-10-11T13:35:18,012][INFO ][o.e.p.PluginsService     ] [92lzyDv] loaded module [lang-mustache]
+[2019-10-11T13:35:18,012][INFO ][o.e.p.PluginsService     ] [92lzyDv] loaded module [lang-painless]
+[2019-10-11T13:35:18,013][INFO ][o.e.p.PluginsService     ] [92lzyDv] loaded module [parent-join]
+[2019-10-11T13:35:18,013][INFO ][o.e.p.PluginsService     ] [92lzyDv] loaded module [percolator]
+[2019-10-11T13:35:18,013][INFO ][o.e.p.PluginsService     ] [92lzyDv] loaded module [reindex]
+[2019-10-11T13:35:18,013][INFO ][o.e.p.PluginsService     ] [92lzyDv] loaded module [repository-url]
+[2019-10-11T13:35:18,013][INFO ][o.e.p.PluginsService     ] [92lzyDv] loaded module [transport-netty4]
+[2019-10-11T13:35:18,013][INFO ][o.e.p.PluginsService     ] [92lzyDv] loaded module [tribe]
+[2019-10-11T13:35:18,015][INFO ][o.e.p.PluginsService     ] [92lzyDv] no plugins loaded
+[2019-10-11T13:35:24,178][INFO ][o.e.d.DiscoveryModule    ] [92lzyDv] using discovery type [zen]
+[2019-10-11T13:35:25,260][INFO ][o.e.n.Node               ] initialized
+[2019-10-11T13:35:25,260][INFO ][o.e.n.Node               ] [92lzyDv] starting ...
+[2019-10-11T13:35:25,467][INFO ][i.n.u.i.PlatformDependent] Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+[2019-10-11T13:35:26,610][INFO ][o.e.t.TransportService   ] [92lzyDv] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2019-10-11T13:35:26,636][WARN ][o.e.b.BootstrapChecks    ] [92lzyDv] initial heap size [268435456] not equal to maximum heap size [4267704320]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2019-10-11T13:35:29,760][INFO ][o.e.c.s.MasterService    ] [92lzyDv] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {92lzyDv}{92lzyDvCTFi8GiwD7VEFGg}{Inj78bRDT8eUe7RiIL3MdA}{127.0.0.1}{127.0.0.1:9300}
+[2019-10-11T13:35:29,775][INFO ][o.e.c.s.ClusterApplierService] [92lzyDv] new_master {92lzyDv}{92lzyDvCTFi8GiwD7VEFGg}{Inj78bRDT8eUe7RiIL3MdA}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {92lzyDv}{92lzyDvCTFi8GiwD7VEFGg}{Inj78bRDT8eUe7RiIL3MdA}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2019-10-11T13:35:29,884][INFO ][o.e.g.GatewayService     ] [92lzyDv] recovered [0] indices into cluster_state
+[2019-10-11T13:35:30,385][INFO ][o.e.h.n.Netty4HttpServerTransport] [92lzyDv] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2019-10-11T13:35:30,386][INFO ][o.e.n.Node               ] [92lzyDv] started
+[2019-10-11T13:47:01,607][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967) ~[?:1.8.0_121]
+	at org.elasticsearch.bootstrap.Security.readPolicy(Security.java:222) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.getPluginPermissions(Security.java:179) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.configure(Security.java:121) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:207) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:322) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:130) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:121) [main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:69) [main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) [main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) [main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:85) [main/:?]
+[2019-10-11T13:47:01,711][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:134) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:121) ~[main/:?]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:69) ~[main/:?]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:134) ~[main/:?]
+	at org.elasticsearch.cli.Command.main(Command.java:90) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:92) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:85) ~[main/:?]
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967) ~[?:1.8.0_121]
+	at org.elasticsearch.bootstrap.Security.readPolicy(Security.java:222) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.getPluginPermissions(Security.java:179) ~[main/:?]
+	at org.elasticsearch.bootstrap.Security.configure(Security.java:121) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:207) ~[main/:?]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:322) ~[main/:?]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:130) ~[main/:?]
+	... 6 more

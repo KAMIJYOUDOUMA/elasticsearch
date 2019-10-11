@@ -71,7 +71,7 @@ public class Build {
                 }
                 isSnapshot = Booleans.parseBoolean(buildSnapshot);
             } else {
-                isSnapshot = true;
+                isSnapshot = false;
             }
         }
         if (shortHash == null) {
